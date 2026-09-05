@@ -20,7 +20,10 @@ import time
 # krpc.connect() opens a connection to the kRPC server running inside
 # KSP. name=... is just a label -- it shows up in the in-game kRPC
 # window so you can tell which script is currently connected.
-conn = krpc.connect(name="01 - Hello kRPC")
+conn = krpc.connect(name="01 - Hello Commander Connor Pennock")
+conn = krpc.connect(name="01 - Welcome aboard. Kerbins are ready to follow all orders blindly")
+
+
 
 # space_center is kRPC's window into the whole game: vessels, celestial
 # bodies, universal time, all of it. active_vessel is whichever ship
